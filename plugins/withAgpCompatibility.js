@@ -3,7 +3,7 @@ const path = require('path');
 const { withProjectBuildGradle, withDangerousMod } = require('@expo/config-plugins');
 
 const AGP_VERSION = '8.5.2';
-const KOTLIN_VERSION = '1.9.24';
+const KOTLIN_VERSION = '2.0.21';
 const GRADLE_DISTRIBUTION = 'https://services.gradle.org/distributions/gradle-8.7-bin.zip';
 
 function escapeRegExp(str) {
